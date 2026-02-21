@@ -2,7 +2,7 @@
 
 A modern, highly polished web application designed to measure typing speed (WPM) and accuracy. Built with React, TypeScript, and Vanilla CSS, this project serves as a comprehensive demonstration of modern frontend development practices, clean architecture, and UI/UX polish.
 
-## ✨ Features (The "Recruiter Upgrades")
+## ✨ Features 
 
 This isn't just a basic typing test. It includes several advanced features to showcase state management, logic, and data persistence:
 
