@@ -1,0 +1,43 @@
+/* Modern Color Palette & Design Tokens */
+:root {
+  /* Colors */
+  --color-bg: #0f172a; /* Slate 900 */
+  --color-surface: #1e293b; /* Slate 800 */
+  --color-primary: #3b82f6; /* Blue 500 */
+  --color-primary-hover: #2563eb; /* Blue 600 */
+  --color-text: #f8fafc; /* Slate 50 */
+  --color-text-dim: #94a3b8; /* Slate 400 */
+  --color-success: #22c55e; /* Green 500 */
+  --color-error: #ef4444; /* Red 500 */
+  --color-accent: #f59e0b; /* Amber 500 */
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg:
+    0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-glow: 0 0 15px rgba(59, 130, 246, 0.5); /* Primary glow */
+}
+
+/* Dark Mode Optimization */
+@media (prefers-color-scheme: light) {
+  /* Optional: Add light mode overrides if needed, keeping dark mode default for "modern" look */
+}
